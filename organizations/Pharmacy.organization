@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Pharmacy" description="The Pharmacy organization is an example of a typical hierarchy. It can be used for development.">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Allan">
+      <firstName>Allan</firstName>
+      <lastName>Mwero</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Dzombo">
+      <firstName>Dzombo</firstName>
+      <lastName>Mwero</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Technician">
+      <displayName>Technician</displayName>
+    </role>
+    <role name="Pharmacist">
+      <displayName>Pharmasict</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Technician">
+      <displayName>Technician</displayName>
+    </group>
+    <group name="Pharmacist">
+      <displayName>Pharmacist</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Allan</userName>
+      <roleName>Technician</roleName>
+      <groupName>Technician</groupName>
+    </membership>
+    <membership>
+      <userName>Dzombo</userName>
+      <roleName>Pharmacist</roleName>
+      <groupName>Pharmacist</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

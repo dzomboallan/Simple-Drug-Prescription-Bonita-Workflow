@@ -1,2 +1,4 @@
-defaultOrganization=ACME
+bonitaUserName=Allan
+bonitaUserPassword=bpm
+defaultOrganization=Pharmacy
 eclipse.preferences.version=1
